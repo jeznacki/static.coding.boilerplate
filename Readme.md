@@ -1,15 +1,21 @@
 # static.coding.boilerplate
 
-Default static development setup - Boilerplate 
+Default static development setup - boilerplate with live reload for dev 
 * gulp
 * browsersync
 * require.js
 * sass (modular)
-* rem fonts
-* gsap - animations config
-* lazyload.js
-* fonts awesome
-* wayipoints.js
+* browsersync
+* system.js - https://github.com/systemjs/systemjs
+* rem fonts - https://snook.ca/archives/html_and_css/font-size-with-rem
+* GSAP - https://greensock.com/gsap
+* lazysizes.js -  https://github.com/aFarkas/lazysizes
+* fontsAwesomePro
+* wayipoints.js - http://imakewebthings.com/waypoints/
+* local storage webfonts - https://github.com/jaicab/localFont
+* PubSUb pattern for events - (to be added)
+* critical CSS - (to be added)
+* throttle, debounce & memoisation functions - (to be added) 
 
 
 ## Init
@@ -20,7 +26,15 @@ gulp dev -  runs on localhost:3000 (with source maps no autprefixer)
 gulp prod -  runs on localhost:3000 (no source maps +  autprefixer)
 
 
-## Destination files
+## Good practices
+
+* will-change:transform  - https://developer.mozilla.org/en-US/docs/Web/CSS/will-change
+
+
+
+
+
+
 
 
 
