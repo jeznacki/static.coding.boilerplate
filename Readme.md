@@ -2,14 +2,16 @@
 
 Default static development setup - Boilerplate 
 * gulp
-* browsersync
-* require.js
 * sass (modular)
-* rem fonts
-* gsap - animations config
-* lazyload.js
-* fonts awesome
-* wayipoints.js
+* browsersync
+* system.js - https://github.com/systemjs/systemjs
+* rem fonts - https://snook.ca/archives/html_and_css/font-size-with-rem
+* GSAP - https://greensock.com/gsap
+* lazysizes.js -  https://github.com/aFarkas/lazysizes
+* fontsAwesomePro
+* wayipoints.js - http://imakewebthings.com/waypoints/
+* local storage webfonts - https://github.com/jaicab/localFont
+
 
 
 ## Init
