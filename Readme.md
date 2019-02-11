@@ -16,10 +16,12 @@ Default static development setup - boilerplate with live reload for dev
 
 ## Init
 
-__command CLI__: gulp   -  runs on localhost:3000
+__command CLI__: 
+
+gulp   -  runs on localhost:3000
 
 
-## Destination files
+
 
 
 
