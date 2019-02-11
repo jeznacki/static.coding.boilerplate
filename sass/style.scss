@@ -1,0 +1,233 @@
+/* ===================================================== */
+// third party includes
+/* ===================================================== */
+
+@import "normalize";
+@import "alertify";
+
+/* ===================================================== */
+// variables SCSS
+/* ===================================================== */
+
+
+
+/* ===================================================== */
+// mixins
+/* ===================================================== */
+
+@mixin center-xy () {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin absolute ($a,$b,$c,$d) {
+  position: absolute;
+  left: $a;
+  top: $b;
+  right: $c;
+  bottom: $d;
+}
+@mixin absolute-center ($a,$b,$c,$d) {
+  position: absolute;
+  left: $a;
+  top: $b;
+  right: $c;
+  bottom: $d;
+  margin: auto;
+}
+
+html {
+  font-size: 62.5%;
+  min-width: 320px;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: 'Rufina', sans-serif;
+  background: #fff;
+  min-width: 320px;
+  overflow-x: hidden;
+  color: $vege-grey-black;
+  * {
+    box-sizing: border-box;
+  }
+}
+
+::selection {
+  background: $vege-highlight;
+  color:lighten(black,30%);
+}
+::-moz-selection {
+  background: $vege-highlight;
+}
+:focus {
+  outline: 0;
+}
+svg {
+  will-change: transform;
+}
+
+a {
+  color: #262626;
+}
+
+img {
+  max-width: 100%;
+}
+
+hr {
+  float: left;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-top: 1px solid $vege-grey-superlight;
+}
+/* ===================================================== */
+// HELPER  CLASSES
+/* ===================================================== */
+
+.width-holder {
+  max-width: 1366px;
+  margin: auto;
+  box-sizing: content-box;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.no-border {
+  border: none;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+//.mb-1,.mb-2 classes
+@for $i from 0 through 10 {
+  .pb-#{$i} { padding-bottom: #{$i}rem; }
+  .pt-#{$i} { padding-top: #{$i}rem; }
+  .mb-#{$i} { margin-bottom: #{$i}rem; }
+  .mt-#{$i} { margin-top: #{$i}rem; }
+
+}
+
+
+/* ===================================================== */
+// TYPOGRAPHY
+/* ===================================================== */
+
+//layout typography
+h1 {
+
+}
+
+h2 {
+
+}
+
+.text-zone {
+
+
+  p {
+
+  }
+
+  h1 {
+
+  }
+  h2 {
+
+  }
+  h3 {
+
+  }
+
+  a {
+
+  }
+
+  .lazyload,
+  .lazyloading {
+    opacity: 0;
+
+  }
+  .lazyloaded {
+    opacity: 1;
+  }
+
+}
+
+
+
+
+/* ===================================================== */
+// APP SHELL
+/* ===================================================== */
+
+@import "site-header";
+@import "site-footer";
+
+
+/* ===================================================== */
+// SINGLE PAGE STRUCTURE
+/* ===================================================== */
+
+@import "single-page";
+
+
+/* ===================================================== */
+//  FORMS
+/* ===================================================== */
+
+@import "forms";
+
+/* ===================================================== */
+//  PAGE RELATED
+/* ===================================================== */
+
+@import "unique-pages";
+
+
+/* ===================================================== */
+//  BUTTONS/LINKS/ICONS
+/* ===================================================== */
+
+@import "links";
+
+/* ===================================================== */
+//  FLOATING MODULES
+/* ===================================================== */
+
+@import "floating-modules";
+
+
+/* ===================================================== */
+//  LISTINGS
+/* ===================================================== */
+
+@import "listings";
+
+/* ===================================================== */
+//  SECTIONS
+/* ===================================================== */
+
+@import "sections";
+
+/* ===================================================== */
+//  RWD
+/* ===================================================== */
+
+@import "rwd";
