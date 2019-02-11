@@ -12,8 +12,13 @@ Default static development setup - Boilerplate
 * wayipoints.js
 
 
-## init
+## Init
 
-__command__: gulp   - runs on localhost:3000
+__command CLI__: gulp   -  runs on localhost:3000
+
+
+## Destination files
+
+
 
 
