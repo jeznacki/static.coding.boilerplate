@@ -1,6 +1,6 @@
 # static.coding.boilerplate
 
-Default static development setup - Boilerplate 
+Default static development setup - boilerplate with live reload for dev 
 * gulp
 * sass (modular)
 * browsersync
