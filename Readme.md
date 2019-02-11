@@ -14,7 +14,10 @@ Default static development setup - Boilerplate
 
 ## Init
 
-__command CLI__: gulp   -  runs on localhost:3000
+__command CLI__: 
+
+gulp dev -  runs on localhost:3000 (with source maps no autprefixer)
+gulp prod -  runs on localhost:3000 (no source maps +  autprefixer)
 
 
 ## Destination files
