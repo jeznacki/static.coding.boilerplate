@@ -13,7 +13,7 @@ Default static development setup - boilerplate with live reload for dev
 * fontsAwesomePro
 * wayipoints.js - http://imakewebthings.com/waypoints/
 * local storage webfonts - https://github.com/jaicab/localFont
-* PubSUb pattern for events - (to be added)
+* RxJS for events - https://github.com/Reactive-Extensions/RxJS
 * critical CSS - (to be added)
 * throttle, debounce & memoisation functions - (to be added) 
 
