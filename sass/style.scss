@@ -11,7 +11,6 @@
 
 $font-family-base:'Lato', sans-serif;
 $font-family-headings: 'Playfair Display', serif;
-
 $color-primary: #d4312c;
 
 
@@ -19,28 +18,8 @@ $color-primary: #d4312c;
 // mixins
 /* ===================================================== */
 
-@mixin center-xy () {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-}
+@import "mixins";
 
-@mixin absolute ($a,$b,$c,$d) {
-  position: absolute;
-  left: $a;
-  top: $b;
-  right: $c;
-  bottom: $d;
-}
-@mixin absolute-center ($a,$b,$c,$d) {
-  position: absolute;
-  left: $a;
-  top: $b;
-  right: $c;
-  bottom: $d;
-  margin: auto;
-}
 
 html {
   font-size: 62.5%;
@@ -117,7 +96,6 @@ hr {
   .pt-#{$i} { padding-top: #{$i}rem; }
   .mb-#{$i} { margin-bottom: #{$i}rem; }
   .mt-#{$i} { margin-top: #{$i}rem; }
-
 }
 
 
