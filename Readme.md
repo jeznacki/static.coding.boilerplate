@@ -22,8 +22,9 @@ Default static development setup - boilerplate with live reload for dev
 
 __command CLI__: 
 
-gulp dev -  runs on localhost:3000 (with source maps no autprefixer)
-gulp prod -  runs on localhost:3000 (no source maps +  autprefixer)
+__gulp dev__ : runs on localhost:3000 (with source maps no autprefixer)
+
+__gulp prod__ :  runs on localhost:3000 (no source maps +  autprefixer)
 
 
 ## Good practices
