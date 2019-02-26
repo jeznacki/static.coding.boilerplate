@@ -1,0 +1,21 @@
+
+
+
+
+//============== Stagger animation example
+
+.portfolio-list > * {
+  opacity: 0;
+  transition: opacity 0.7s ease-out;
+}
+
+$elements: 20;
+@for $i from 0 to $elements {
+  .portfolio-list > *:nth-child(#{$i + 1}) {
+    transition-delay: #{300 + ($i*150)}ms;
+  }
+}
+
+.animate-section .portfolio-list > * {
+  opacity: 1;
+}

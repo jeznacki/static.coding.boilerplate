@@ -98,6 +98,17 @@ hr {
   .mt-#{$i} { margin-top: #{$i}rem; }
 }
 
+.lazyload,
+.lazyloading {
+  opacity: 0;
+}
+.lazyloaded {
+  opacity: 1;
+  transition: opacity 500ms;
+  -webkit-transition: opacity 500ms;
+}
+
+
 
 /* ===================================================== */
 // TYPOGRAPHY
@@ -143,6 +154,8 @@ h2 {
   }
 
 }
+
+
 
 
 
