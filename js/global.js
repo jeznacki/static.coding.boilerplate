@@ -1,4 +1,4 @@
-var animations = {
+var global = {
 
     gsapAnimation: function(){
 
@@ -56,4 +56,4 @@ var animations = {
     }
 }
 
-module.exports = animations;
+module.exports = global;

@@ -2,20 +2,31 @@
 
 
 
-//============== Stagger animation example
+//============== Random Stagger animation example
 
-.portfolio-list > * {
+//animation
+
+.events-list a.event-item{
   opacity: 0;
   transition: opacity 0.7s ease-out;
 }
 
+$list: ();
 $elements: 20;
+
 @for $i from 0 to $elements {
-  .portfolio-list > *:nth-child(#{$i + 1}) {
-    transition-delay: #{300 + ($i*150)}ms;
+  $list: append($list, $i, 'auto');
+}
+
+$list: rando-shuffle($list); //random list order
+
+@each $pos in $list {
+  $i: index($list, $pos);
+  .events-list a.event-item:nth-child(#{$i + 1}) {
+    transition-delay: #{300 + ($pos*150)}ms;
   }
 }
 
-.animate-section .portfolio-list > * {
+.animated-section .events-list a.event-item {
   opacity: 1;
 }
