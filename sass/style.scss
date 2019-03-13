@@ -63,6 +63,13 @@ hr {
 // HELPER  CLASSES
 /* ===================================================== */
 
+//percentage min-height class
+.percent-height:before {
+  content: "";
+  float: left;
+  padding-top: 52%;
+}
+
 .width-holder {
   max-width: 1366px;
   margin: auto;
