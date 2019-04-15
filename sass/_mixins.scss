@@ -14,6 +14,17 @@
   left: $d;
 }
 
+@mixin clear-list () {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+}
+
 @mixin placeholder($color){
   &::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color:$color;
