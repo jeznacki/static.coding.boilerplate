@@ -60,6 +60,12 @@ hr {
   margin-bottom: 3rem;
 }
 
+::selection {
+  background:rgba(#5f5f5f,0.5);
+}
+::-moz-selection {
+  background:rgba(#5f5f5f,0.5);
+}
 *:hover, *:active, *:focus {
   outline: 0 !important;
 }
