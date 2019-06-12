@@ -59,6 +59,10 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+
+*:hover, *:active, *:focus {
+  outline: 0 !important;
+}
 /* ===================================================== */
 // HELPER  CLASSES
 /* ===================================================== */
