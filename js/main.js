@@ -3,6 +3,22 @@ lazySizesConfig.loadMode = 1;
 
 app.animations = require('js/global.js');
 
+//smart loading / difining modues
+// read more
+// https://nystudio107.com/blog/using-systemjs-as-javascript-loader
+
+System.config({
+    paths: {
+        'jquery': 'https://code.jquery.com/jquery-1.12.4.min.js',
+        'slick': '//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js'
+    }
+});
+
+//conditional import example
+System.import("slick").then(function(whatever){
+    //run something
+});
+
 
 
 /* ================================================GLOBAL FUNCTIONS */

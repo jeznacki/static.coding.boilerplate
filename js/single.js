@@ -29,7 +29,7 @@ var post = {
     function3:function(){
 
         //conditional import example
-        System.import("js/vendor/simpleselect.js").then(function(whatever){
+        System.import("slick").then(function(whatever){
             //run something
         });
 
